@@ -14,6 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
+
+# Seo-tag
+title: "SHnag-Yu Chou's Website"
+locale: "zh-TW" # 自己的地區
+description: "Acedemic website of SHnag-Yu Chou, a M.S. student in the Department of Computer Science, National Taiwan University."
 url: "https://catchfree1225.github.io/"
 
 # Build settings
