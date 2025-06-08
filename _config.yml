@@ -14,12 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://catchfree1225.github.io/"
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
-  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-minifier
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
